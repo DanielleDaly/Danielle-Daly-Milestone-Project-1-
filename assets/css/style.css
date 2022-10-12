@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     border: none;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Monserrat, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #222222;
     font-size: 16px;
@@ -16,9 +16,8 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Monserrat, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
 }
 
 #logo {
@@ -41,9 +40,8 @@ h1, h2 {
 
 #menu li {
     display: inline;
-    font-family: Monserrat, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -68,20 +66,34 @@ h1, h2 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 200px;
+    background-color: #032c36;
+    padding: 25px;
+    clear:both;
+    color: #fff
 }
 
-.social-networks {
-    text-align: center;
+.social-links {
+    float: left;
 }
 
-.social-networks > li {
-    display: inline;
+.social-links > li {
+    display: inline-block;
+    padding: 30px;
+    margin-top: 20px;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #222222;
+.social-links i {
+    font-size: 150%;
+    color:#fff;
+}
+
+.contact {
+    float:right;
+    margin-right: 30px;
+  
+}
+
+.contact a {
+    display:block;
 }
