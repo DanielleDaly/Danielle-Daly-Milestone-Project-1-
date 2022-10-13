@@ -77,14 +77,65 @@ h1, h2 {
     background-size: cover;
 }
 
+/* section one */
+
+#tag { 
+    background-color:#fff;
+    color: #032c36;
+    text-align: center;
+}
+
+.img-left-text-right {
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
+.img-left-text-right img {
+    width: 40%;
+    height: 300px;
+}
+
+.img-left-text-right div {
+    float: right;
+    width: 60%;
+}
+
+.img-left-text-right div > h2 {
+    font-size: 1.3rem; 
+}
+
+.img-right-text-left {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.img-right-text-left img {
+    width: 40%;
+    height: 300px;
+}
+
+.img-right-text-left div {
+    float: left;
+    width: 60%;
+}
+
+.img-right-text-left div h2 {
+    font-size: 1.3rem;
+}
+
+
+
 /* footer */
 
 footer {
     height: 200px;
     background-color: #032c36;
     padding: 25px;
-    clear:both;
-    color: #fff
+    clear: both;
+    color: #fff;
 }
 
 .social-links {
