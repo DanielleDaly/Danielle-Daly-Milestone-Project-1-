@@ -126,6 +126,19 @@ h1, h2 {
     font-size: 1.3rem;
 }
 
+/* section 2 - pick-up points*/
+
+#collection div {
+    width: 25%;
+    height: 300px;
+    float:right;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    text-align:center;
+    padding: 30px;
+
+}
+
 
 
 /* footer */
