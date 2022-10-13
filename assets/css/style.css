@@ -60,11 +60,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #222222;
+    border-bottom: 1px solid #fff;
 }
 
 .active {
-    border-bottom: 1px solid #222222;
+    border-bottom: 1px solid #fff;
 }
 
 /* hero image */
@@ -139,6 +139,15 @@ h1, h2 {
 
 }
 
+/* Form */
+
+.form-section {
+    clear: left;
+    background-image: url('../images/order-now-photo.png');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
 
 /* footer */
