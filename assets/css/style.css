@@ -9,7 +9,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #222222;
     font-size: 16px;
     background-color: #032c36;
     color:#fff;
@@ -76,12 +75,28 @@ h1, h2 {
     overflow: hidden;
     background-size: cover;
 }
+#cover-text, #cover-text h2 {
+    font-color: #fff;
+
+}
+#cover-text {
+    font-size:120%;
+    font-family: Poppins, sans-serif;
+    width:350px;
+    height:150px;
+    background-color: rgba(3, 44, 54, 0.6);
+    position:absolute;
+    right:150px;
+    bottom:30px;
+    padding-top: 30px;
+    padding-left:30px;   
+}
 
 /* section one */
 
 #tag { 
-    background-color:#fff;
-    color: #032c36;
+    background-color:#032c36;
+    color: #fff;
     text-align: center;
 }
 
@@ -182,4 +197,21 @@ footer {
     background-image: url('../images/order-now-photo.png');
     background-size: cover;
     background-position: center;
+    clear:both;
+    text-align:center;
+    color: whitesmoke;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+/* our products page */
+
+.veg {
+    clear:both;
+    column-count:4;
+    text-align:center;
+}
+
+h1 {
+    clear: both;
 }
