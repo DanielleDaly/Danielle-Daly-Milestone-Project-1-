@@ -147,8 +147,8 @@ footer {
     height: 200px;
     background-color: #032c36;
     padding: 25px;
-    clear: both;
     color: #fff;
+    
 }
 
 .social-links {
@@ -174,4 +174,12 @@ footer {
 
 .contact a {
     display:block;
+}
+
+/* Form */
+
+.form-section {
+    background-image: url('../images/order-now-photo.png');
+    background-size: cover;
+    background-position: center;
 }
