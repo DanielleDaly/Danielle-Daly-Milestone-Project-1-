@@ -14,6 +14,10 @@ body {
     color:#fff;
 }
 
+section {
+    clear: both;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -76,7 +80,7 @@ h1, h2 {
     background-size: cover;
 }
 #cover-text, #cover-text h2 {
-    font-color: #fff;
+    color: #fff;
 
 }
 #cover-text {
@@ -94,51 +98,76 @@ h1, h2 {
 
 /* section one */
 
-#tag { 
-    background-color:#032c36;
-    color: #fff;
+#welcome { 
+    background-color: rgb(244,246,248);
+    color: #032c36;
+    font-family: Poppins, sans-serif;
+    padding-bottom:20px;
+    font-size:1.2rem;
+    margin-top: 20px;
+}
+
+.intro {
     text-align: center;
+    background-color: #032c36;
+    color:#fff;
+}
+
+.intro h1 {
+    padding-bottom:10px;
+}
+
+.intro p {
+    padding-bottom:70px;
 }
 
 .img-left-text-right {
     position: relative;
     display: block;
     width: 100%;
-
+    clear: both;
 }
 
 .img-left-text-right img {
-    width: 40%;
+    width: 60%;
+    box-sizing:border-box;
     height: 300px;
+    padding-left:30px;
+    margin-top:30px;
 }
 
 .img-left-text-right div {
     float: right;
-    width: 60%;
-}
-
-.img-left-text-right div > h2 {
-    font-size: 1.3rem; 
+    width: 40%;
+    padding-right:30px;
+    box-sizing:border-box;
+    padding-left:10px;
+    margin-top:30px;
 }
 
 .img-right-text-left {
     position: relative;
     display: block;
     width: 100%;
+    clear: both;
 }
 
 .img-right-text-left img {
-    width: 40%;
+    float: right;
+    width: 60%;
+    box-sizing:border-box;
     height: 300px;
+    padding-right:30px;
+    margin-top:30px;
 }
 
 .img-right-text-left div {
-    float: left;
-    width: 60%;
-}
-
-.img-right-text-left div h2 {
-    font-size: 1.3rem;
+    text-align: right;
+    width: 40%;
+    padding-right:10px;
+    box-sizing:border-box;
+    padding-left:30px;
+    margin-top:30px;
 }
 
 /* section 2 - pick-up points*/
