@@ -267,3 +267,28 @@ h1 {
 .veg-item:hover {
     transform: scale(1.1);
 }
+
+.eggs {
+    clear:both;
+    text-align:center;
+}
+
+.eggs img {
+    width:400px;
+    height:300px;
+    overflow:hidden;
+    box-sizing: border-box;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.eggs-item {
+    padding: 0 16px 32px 16px;
+    float:left;
+    width: 25%; 
+    transition: transform 0.4s; 
+}
+
+.eggs-item:hover {
+    transform: scale(1.1);
+}
