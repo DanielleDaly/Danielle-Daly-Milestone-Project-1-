@@ -17,7 +17,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     background-color: #032c36;
-    color:#fff;
+    color: #fff;
 }
 
 section {
@@ -76,7 +76,7 @@ h1, h2 {
     border-bottom: 1px solid #fff;
 }
 
-/* hero image */
+/* home page hero image */
 
 #hero-image {
     height: 600px;
@@ -102,7 +102,7 @@ h1, h2 {
     padding-left:30px;   
 }
 
-/* section one */
+/* home page section one */
 
 #welcome { 
     background-color: rgb(244,246,248);
@@ -174,11 +174,11 @@ h1, h2 {
     margin-top:30px;
 }
 
-/* section 2 - pick-up points*/
+/* home page section 2 - pick-up points*/
 
 #collection div {
     width: 25%;
-    height: 300px;
+    height: 200px;
     float:right;
     border: 1px solid #fff;
     box-sizing: border-box;
@@ -187,54 +187,54 @@ h1, h2 {
 
 }
 
-
-
-/* footer */
-
-footer {
-    height: 200px;
-    background-color: #032c36;
-    padding: 25px;
-    color: #fff;
-    
-}
-
-.social-links {
-    float: left;
-}
-
-.social-links > li {
-    display: inline-block;
-    padding: 30px;
-    margin-top: 20px;
-}
-
-.social-links i {
-    font-size: 150%;
-    color:#fff;
-}
-
-.contact {
-    float:right;
-    margin-right: 30px;
-  
-}
-
-.contact a {
-    display:block;
-}
-
-/* Form */
+/* form - order now page */
 
 .form-section {
     background-image: url('../images/order-now-photo.png');
     background-size: cover;
     background-position: center;
-    clear:both;
-    text-align:center;
-    color: whitesmoke;
-    padding-top:30px;
-    padding-bottom:30px;
+    clear: both;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.form-input-wrapper {
+    background-color: rgba(3, 44, 54, 0.6);
+    width:50%;
+    margin: 0 auto;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+form h2 {
+    padding-bottom: 2rem;
+    text-transform:uppercase;
+}
+
+.text-input {
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color:#f16c6b;
+    
+}
+
+.form-item {
+    width:100%;
+    text-align:left;
+    margin-bottom: 1rem;
+}
+
+form-item p {
+    padding: 5px;
 }
 
 /* our products page */
@@ -273,7 +273,7 @@ footer {
     text-align: left;
 }
 
-#veg-intro h2, p, ul {
+#veg-intro h2, #veg-intro p, #veg-intro ul {
     padding-left:20px;
     padding-bottom:20px;
     padding-top:20px;
@@ -330,4 +330,50 @@ h1 {
 
 .eggs-item:hover {
     transform: scale(1.1);
+}
+
+/* clearfix */
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: #032c36;
+    padding: 25px;
+    color: #fff;
+    
+}
+
+.social-links {
+    float: left;
+}
+
+.social-links > li {
+    display: inline-block;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.social-links i {
+    font-size: 150%;
+    color:#fff;
+}
+
+.contact {
+    float:right;
+    margin-right: 30px;
+  
+}
+
+.contact a {
+    display:block;
 }
