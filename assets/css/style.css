@@ -119,13 +119,13 @@ section {
     display: block;
     width: 100%;
     clear: both;
+    padding: 2rem 0;
 }
 
 .img-left-text-right img {
     width: 60%;
     height: 300px;
     padding-left: 30px;
-    margin-top: 30px;
     object-fit: cover;
 }
 
@@ -136,29 +136,34 @@ section {
     padding-left: 10px;
 }
 
+.img-left-text-right h2 {
+    margin-top: 0;
+}
+
 .img-right-text-left {
     position: relative;
     display: block;
     width: 100%;
     clear: both;
+    padding: 2rem 0;
 }
 
 .img-right-text-left img {
-    float: right;
     width: 60%;
     height: 300px;
     padding-right: 30px;
-    margin-top: 30px;
     object-fit: cover;
 }
 
 .img-right-text-left div {
     float: left;
     width: 40%;
-    padding-right: 10px;
-    box-sizing: border-box;
     padding-left: 30px;
-    margin-top: 30px;
+    padding-right: 10px;
+}
+
+.img-right-text-left h2 {
+    margin-top: 0;
 }
 
 /* home page section 2 - pick-up points*/
@@ -398,7 +403,6 @@ footer {
 /* Media Queries */
 
 /* for mobile devices 375px and below */
-
 @media screen and (max-width: 375px) {
     #logo {
         margin: 30px auto 0;
@@ -528,5 +532,41 @@ footer {
 
     form h2 {
         font-size: 1.5rem;
+    }
+}
+
+/* for mobile devices 375px and below */
+@media screen and (max-width: 768px) {
+    #logo {
+        margin: 30px auto 0;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    #menu {
+        clear: left;
+        float: none;
+        line-height: 6rem;
+        text-align: center;
+    }
+
+    #menu ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    #menu li {
+        margin-right: 1rem;
+    }
+
+    #menu li:last-child {
+        margin-right: 0;
+    }
+
+
+    .veg-item img, .eggs-item img {
+        height: 210px;
     }
 }
