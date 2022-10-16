@@ -84,41 +84,34 @@ section {
 
 }
 #cover-text {
-    font-size:120%;
+    font-size: 120%;
     font-family: 'Roboto', sans-serif;
-    width:350px;
-    height:150px;
+    width: 350px;
     background-color: rgba(3, 44, 54, 0.6);
-    position:absolute;
-    right:150px;
-    bottom:30px;
-    padding-top: 30px;
-    padding-left:30px;   
+    position: absolute;
+    right: 200px;
+    bottom: 80px;
+    padding: 1rem 2% 1rem 2%;  
 }
 
-/* home page section one */
+/* home page section one */ 
 
 #welcome { 
-    background-color: rgb(244,246,248);
-    color: #032c36;
-    font-family: Poppins, sans-serif;
-    padding-bottom:20px;
-    font-size:1.2rem;
-    margin-top: 20px;
+    background-color: #032c36;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 .intro {
     text-align: center;
-    background-color: #032c36;
-    color:#fff;
+    color: #fff;
 }
 
 .intro h1 {
-    padding-bottom:10px;
-}
-
-.intro p {
-    padding-bottom:70px;
+    padding-bottom: 10px;
+    background-color: #032c36;
 }
 
 .img-left-text-right {
@@ -131,16 +124,17 @@ section {
 .img-left-text-right img {
     width: 60%;
     height: 300px;
-    padding-left:30px;
-    margin-top:30px;
+    padding-left: 30px;
+    margin-top: 30px;
+    object-fit: cover;
 }
 
 .img-left-text-right div {
     float: right;
     width: 40%;
-    padding-right:30px;
-    padding-left:10px;
-    margin-top:30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-top: 30px;
 }
 
 .img-right-text-left {
@@ -153,32 +147,45 @@ section {
 .img-right-text-left img {
     float: right;
     width: 60%;
-    box-sizing:border-box;
     height: 300px;
-    padding-right:30px;
-    margin-top:30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    object-fit: cover;
 }
 
 .img-right-text-left div {
-    text-align: right;
+    float: left;
     width: 40%;
-    padding-right:10px;
-    box-sizing:border-box;
-    padding-left:30px;
-    margin-top:30px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 
 /* home page section 2 - pick-up points*/
 
 #collection div {
-    width: 25%;
+    width: calc(25% - 8px);
+    margin-right: 8px;
     height: 200px;
-    float:right;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    text-align:center;
-    padding: 30px;
+    float: right;
+    border: 2px solid rgb(244,246,248);
+    text-align: center;
+    background-color: rgb(244,246,248);
+   
+}
 
+#collection h2 {
+    background-color: #032c36;
+    color: #fff;
+    margin-block-start: 0;
+    padding-bottom: 0.5rem;
+}
+
+#collection h3 {
+    background-color: rgb(244,246,248);
+    color: #032c36;
+    padding: 1rem, 5%, 1rem, 5%;
 }
 
 /* form - order now page */
@@ -196,14 +203,14 @@ section {
 
 .form-input-wrapper {
     background-color: rgba(3, 44, 54, 0.6);
-    width:50%;
+    width: 50%;
     margin: 0 auto;
     padding: 2rem 2rem 2rem 2rem;
 }
 
 form h2 {
     padding-bottom: 2rem;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .text-input {
@@ -217,13 +224,13 @@ form h2 {
 }
 
 .text-input:hover {
-    border-color:#f16c6b;
+    border-color: #f16c6b;
     
 }
 
 .form-item {
-    width:100%;
-    text-align:left;
+    width: 100%;
+    text-align: left;
     margin-bottom: 1rem;
 }
 
@@ -289,9 +296,9 @@ form-item p {
 }
 
 .veg-item img {
-    width:400px;
-    height:300px;
-    overflow:hidden;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     box-sizing: border-box;
     max-width: 100%;
     object-fit: cover;
@@ -299,7 +306,7 @@ form-item p {
 
 .veg-item{
     padding: 0 16px 32px 16px;
-    float:left;
+    float: left;
     width: 25%; 
     transition: transform 0.4s; 
 }
@@ -309,8 +316,8 @@ form-item p {
 }
 
 #eggs-wrapper {
-    clear:both;
-    text-align:center;
+    clear: both;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     background-color: rgb(244,246,248);
@@ -318,23 +325,23 @@ form-item p {
 }
 
 #eggs-wrapper h2 {
-    clear:both;
-    text-align:center;
+    clear: both;
+    text-align: center;
     font-size: 2rem;
     padding: 1rem, 5%, 1rem, 5%;
 }
 
 #eggs-wrapper p {
-    clear:both;
-    text-align:center;
+    clear: both;
+    text-align: center;
     text-align: center;
     padding: 1rem, 5%, 1rem, 5%;
 }
 
 .eggs-item img {
-    width:400px;
-    height:300px;
-    overflow:hidden;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     box-sizing: border-box;
     max-width: 100%;
     object-fit: cover;
@@ -342,7 +349,7 @@ form-item p {
 
 .eggs-item {
     padding: 0 16px 32px 16px;
-    float:left;
+    float: left;
     width: 25%; 
     transition: transform 0.4s; 
 }
@@ -384,15 +391,15 @@ footer {
 
 .social-links i {
     font-size: 150%;
-    color:#fff;
+    color: #fff;
 }
 
 .contact {
-    float:right;
+    float: right;
     margin-right: 30px;
   
 }
 
 .contact a {
-    display:block;
+    display: block;
 }
