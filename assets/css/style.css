@@ -8,8 +8,7 @@ html {
 
 * {
     border: none;
-    padding: 0;
-    margin: 0;
+    
 }
 
 body {
@@ -25,11 +24,6 @@ section {
 }
 
 /* headings and logo */
-
-h1, h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
 
 #logo {
     float: left;
@@ -241,53 +235,60 @@ form-item p {
 
 #intro {
     background-color: #032c36;
-    color: whitesmoke;
+    color: rgb(244,246,248);
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    text-align: left;
 }
 
 #intro img {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url('../images/our-products-background-photo.jpeg') no-repeat center center;
-    overflow: hidden;
-    background-size: cover;
+    background: url('../images/polytunnel-photo.jpeg') no-repeat center center;
+    overflow: hidden; 
+    object-fit: cover;
+ 
 }
 #intro h1 {
-    padding-left:20px;
-    padding-bottom:20px;
-    padding-top: 20px;
+    text-align: center;
+    padding: 1rem, 5%, 1rem, 5%;
 }
 
 #intro p {
-    padding-left:20px;
-    padding-bottom:20px;
+    text-align: center;
+    padding: 0, 5%, 1rem, 5%;
 }
 
 #veg-intro {
-    background-color: whitesmoke;
+    background-color: rgb(244,246,248);
     color: #032c36;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    text-align: left;
 }
 
-#veg-intro h2, #veg-intro p, #veg-intro ul {
-    padding-left:20px;
-    padding-bottom:20px;
-    padding-top:20px;
-}
-.veg {
-    clear:both;
-    text-align:center;
+#veg-intro h2 {
+    text-align: center;
+    padding: 1rem, 5%, 1rem, 5%;
+    font-size: 2rem;
 }
 
-h1 {
+#veg-intro p, #veg-intro ul {
+    text-align: center;
+    padding: 1rem, 5%, 1rem, 5%;
+    list-style-type: none;
+}
+
+#veg-item-wrapper {
+    background-color: #032c36;
+    color: rgb(244,246,248);
+}
+
+#veg-item-wrapper h1 {
     clear: both;
+    font-size: 2rem;
+    padding-left: 5%;
 }
 
-.veg img {
+.veg-item img {
     width:400px;
     height:300px;
     overflow:hidden;
@@ -296,7 +297,7 @@ h1 {
     object-fit: cover;
 }
 
-.veg-item {
+.veg-item{
     padding: 0 16px 32px 16px;
     float:left;
     width: 25%; 
@@ -307,12 +308,30 @@ h1 {
     transform: scale(1.1);
 }
 
-.eggs {
+#eggs-wrapper {
     clear:both;
     text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(244,246,248);
+    color: #032c36;
 }
 
-.eggs img {
+#eggs-wrapper h2 {
+    clear:both;
+    text-align:center;
+    font-size: 2rem;
+    padding: 1rem, 5%, 1rem, 5%;
+}
+
+#eggs-wrapper p {
+    clear:both;
+    text-align:center;
+    text-align: center;
+    padding: 1rem, 5%, 1rem, 5%;
+}
+
+.eggs-item img {
     width:400px;
     height:300px;
     overflow:hidden;
