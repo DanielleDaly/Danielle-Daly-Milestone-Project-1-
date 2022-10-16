@@ -249,21 +249,20 @@ form-item p {
 }
 
 .button {
-    width: 50%;
-    background: white;
+    background-color: #f16c6b;
+    color: #fff;
     border: solid 1px white;
     display: block;
     font-size: 1.2rem;
     text-align: center;
-    color: #032c36;
-    padding: 0.5rem 1em 0.5rem 1rem;
-    font-weight: bold;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     margin-top: 1rem;
+    transition: all 0.2s;
 }
 
 .button:hover {
-    background-color: #f16c6b;
-    color: #fff;
+    background-color: white;
+    color: #032c36;
 }
 
 #select-eggs {
