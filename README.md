@@ -139,7 +139,7 @@ CSS - No errors were found when passing through the official (Jigsaw) validator
 **Unfixed Bugs**
 
 
-There are no unfoxed bugs.
+There are no unfixed bugs.
 
 
 
