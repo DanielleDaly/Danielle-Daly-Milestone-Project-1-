@@ -1,5 +1,12 @@
 # **FINGAL FARM**
 
+
+<h3 align="center"><img src="assets/images/screenshots/screenshot-responsive-home-page.png"></h3>
+
+
+**Live link** https://danielledaly.github.io/Danielle-Daly-Milestone-Project-1-/index.html
+
+
 **Introduction:**
 
 
@@ -147,7 +154,7 @@ In got hub repository, navigate to the settings tab.
 
 From the source section drop down menu the page provided the link to the completed website.
 
-The live link can be found here: 
+The live link can be found here: https://danielledaly.github.io/Danielle-Daly-Milestone-Project-1-/index.html
 
 
 **Credits**
