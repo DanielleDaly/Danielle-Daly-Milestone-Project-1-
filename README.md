@@ -24,7 +24,7 @@ The site is targeted towards anyone who would like to buy organic food from thei
 
 The navigation bar is featured on all three pages of the website. It includes a logo with the business name (Fingal Farm) and the business purpose (organic produce) on the top left hand side of the screen. This logo will bring users back to the home page when clicked.
 
-On the top left hand side users can find links to the home page, our products page and the order now page. An active button has been included to provide a visual cue to the user showing what page they are currently on. If a user hovers over the links they will show as underlined.
+On the top right hand side users can find links to the home page, our products page and the order now page. An active link state has been included to provide a visual cue to the user showing what page they are currently on. If a user hovers over the links they will show as underlined.
 
 The navigation bar is the same across all three pages in order to provide ease of use and consistency to the user. It also uses a contrasting colour scheme which allows the user to quickly navigate through the website. 
 
@@ -67,7 +67,7 @@ This section gives details of the times and locations that collections of fruit,
 <h3 align="center"><img src="assets/images/screenshots/screenshot-footer.png"></h3>
 
 
-The footer section contains links to Fingal Farm’s social media pages. These open in a new tab. Contact details for phone and email address have also been added to the footer. Icons are used to represent the social media linls and contact details.
+The footer section contains links to Fingal Farm’s social media pages. These open in a new tab. Contact details for phone and email address have also been added to the footer. Icons are used to represent the social media links and contact details.
 
 
 **The Our Products Page**
@@ -146,11 +146,11 @@ There are no unfixed bugs.
 **Deployment**
 
 
-The site was deployed to git hub pages. 
+The site was deployed to GitHub pages. 
 
 The steps to deploy are as follows: 
 
-In got hub repository, navigate to the settings tab. 
+In GitHub repository, navigate to the settings tab. 
 
 From the source section drop down menu the page provided the link to the completed website.
 
@@ -166,7 +166,7 @@ The code for the social media icons in the footer was taken from the Code Instit
 
 The icons are from Font Awesome.
 
-The Logo was created using the looks.com logo creator. 
+The Logo was created using the looka.com logo creator. 
 
 
 **Media**
